@@ -1,0 +1,190 @@
+
+        #nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        #nav>div{
+            font-size: 30px;
+            /* background-color: blanchedalmond; */
+        }
+        #nav>div>button{
+            width: 200px;
+            height: 30px;
+        }
+        #banner>div>img{
+            width: 100%;  
+        }
+        #banner>div{
+            margin-top: 15px;
+        }
+        .body1{
+            margin: 20px 10%;
+            width: 80%;
+        }
+        .search_by_catogeries>strong{
+            font-size: 20px;
+
+        }
+        .body_second{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+        }
+        .body_second>div{
+            text-align: center;
+            margin: 10px 10px;
+            /* border: 1px solid black; */
+        }
+        .body_second>div>div:nth-child(1){
+            /* background-color: black; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+        .body_second>div>div:nth-child(1)>img{
+            width: 100%;
+        }
+        #Box-join{
+            background-color: rgb(231, 164, 101);
+            /* border: 1px solid black; */
+            height: 15vh;
+            width: 50%;
+            margin: 10px 25%;
+            border-radius: 10px;
+        }
+        #Box-join>div{
+            margin: 10px 20px;
+            border-bottom: 1px solid black;
+        }
+        #Box-join>div>div{
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        #Know_me{
+            text-align: center;
+            width: 80%;
+            margin: 15px 10%;
+            border: 1px solid black;
+        }
+        #Know_me>div{
+            display: flex;
+            justify-content: space-evenly;    
+        }
+        #bank-poster{
+            width: 70%;
+            margin: 5px 11%;
+        }
+        #reff{
+            display: flex;
+            width: 60%;
+            background-color:rgb(243, 161, 45);
+            color: white;
+            margin: 10px 22%;
+        }
+        #reff>div>img{
+            width: 60%;
+            
+        }
+        #best{
+             margin: 5px 10%;
+            width: 80%;
+        }
+
+        #best-seler{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        #best-seler>div{
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            margin-left: 10px;
+        }
+
+        #best-seler>div>div>div>img{
+            width: 100%;
+        
+        }
+        #best-seler>div>div>div:nth-child(2){
+            padding: 5px;
+        }
+        .mrp{
+            display: flex;
+             justify-content:space-between;
+             
+        }
+        .mrp>div{
+            margin: auto;
+
+        }
+        .mrp>div>button{
+            width: 150px;
+            height: 35px;
+            border: none;
+        }
+        #bonless{
+             margin: 5px 10%;
+             width: 80%;
+        }
+
+        .bonless-cuts{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .bonless-cuts>div{
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            margin-left: 10px;
+        }
+
+        .bonless-cuts>div>div>div>img{
+            width: 100%;
+        
+        }
+        .bonless-cuts>div>div>div:nth-child(2){
+            padding: 5px;
+        }
+        .mrp2{
+            display: flex;
+             justify-content:space-between;
+        }
+        .mrp2>div{
+            margin:auto;
+        }
+        .mrp2>div>button{
+            width: 150px;
+            height: 35px;
+            border: none;
+        }
+        #breakfast{
+             margin: 5px 10%;
+             width: 80%;
+        }
+        .order{
+            display: flex;
+            gap: 5px;
+            margin:5px 25%;
+        }
+        .chek_out_blog{
+            width: 80%;
+            margin: 10% 10% 2% 10%;
+            
+        }
+        .chek_out_blog>div{
+            display: flex;
+            gap: 15px;
+        }
+        
+        .chek_out_blog>div>div>img{
+            width: 100%;
+            height: 50vh;
+            border-radius: 10px;
+        }
+        .chek_out_blog>div>div>div{
+            margin: 2px 5px;
+        }
+        .banner2{
+            width: 80%;
+            margin: 2px 10%;
+        }
+
+
+
