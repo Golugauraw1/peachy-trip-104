@@ -6,15 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    
 </head>
 <body>
     <div id="nav">
-        <div id="logo"><img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="logo"></div>
+        <div id="logo" onClick="logo()"><img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="logo"></div>
         <div id="location"><img  src="https://cdn-icons-png.flaticon.com/128/3914/3914536.png" alt="location"> Location</div>
-        <div><button>Search</button></div>
-        <div>Categories</div>
-        <div>Login</div>
-        <div>Cart</div>
+        <div class="search" onClick="search()"><button>Search here<i><img src="https://www.licious.in/img/rebranding/search_icon.svg" alt="Search img" > </i></button>
+        </div>
+        <div class="cato" onClick="cato()"><img src="https://www.licious.in/img/rebranding/category-dropdown-icon.svg" alt="cato"> 
+        Categories </div>
+        <div id="myBtn" class="login"><img src="https://www.licious.in/img/rebranding/profile_icon.svg" alt="login">
+        Login
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+         <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Enter Your Mobile Number</h2>
+        </div>
+          <div class="modal-body">
+          <input class="number" type="Number" placeholder="+91">
+          <button class="otp" > Get OTP</button>
+          <input class="num"type="Number" placeholder="Enter your otp">
+        </div>
+        <div class="modal-footer">
+         <button class="submit"> Submit</button>
+        <h3 class="golu"> golu</h3>
+        </div>
+        </div>
+      </div>
+   </div>
+        <div class="cart"><img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="card">
+         Cart</div>
     </div>
     <div id="banner">
         <div>
@@ -78,15 +101,16 @@
      </div>
     </div>
     <div id="Box-join">
-        <div>
             <div>
                 <div><img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="logo">
                     <button>Join Now</button>
                 </div>
             </div>
-        </div>
-        <p>Join MEATOPIA to get free delivery on all orders with cart value with more than Rs.99.</p>
+            <div>
+                <p>Join MEATOPIA to get free delivery on all orders with cart value with more than Rs.99.</p>
+            </div>
     </div>
+        
     <div id="Know_me">
         <h1>Know the Licious way</h1>
         <div class="know-me-child">
@@ -119,7 +143,7 @@
                 <p>500gms</p>
                 <div class="mrp">
                     <div><h3>MRP:170</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -134,7 +158,7 @@
                 <p>500gms</p>
                 <div class="mrp">
                     <div><h3>MRP:311</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -144,12 +168,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fcea4075-0ed2-23c1-2b3f-1cddcbd1d11f/original/Chicken-Breast-Boneless-(3-4-Pieces)-Hero-Shot_(1).jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
-                <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
-                <p>500gms</p>
+                <h4>Chicken Curry Cut - Small Pieces (Large Pack)</h4>
+                <p>Bone-in chunky pieces of skinless meat including Two leg,</p>
+                <p>100gms</p>
                 <div class="mrp">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP:345</h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -169,12 +193,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/4cad2ee9-9257-9109-62a1-da4082b2cf36/original/sho.jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
+                <h4>Chicken Thigh Boneless</h4>
                 <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
-                <p>500gms</p>
+                <p>450gms</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP:339</h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -184,12 +208,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/3e9023d4-e2f7-2fe6-c68f-75014733ff7e/original/Chicken_Mince_Large_Pack_Hero_Shot.jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
+                <h4>Chicken Mince(Keema)</h4>
                 <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
-                <p>500gms</p>
+                <p>450gms</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP:299</h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -199,12 +223,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/06467851-b012-3b3f-0f74-5c758afa2603/original/p1_tile_images-25.jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
+                <h4>(Bana) Chicken Pieces</h4>
                 <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
                 <p>500gms</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP:279</h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
              </div>
             </div>
@@ -268,19 +292,19 @@
      </div>
     </div>
     <div id="breakfast">
-        <h2>Bonless Cuts</h2>
+        <h2>Breakfast & Snacking Spacials</h2>
         <div class="bonless-cuts">
            <div>
             <div>
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fee95638-21fd-1706-4569-ed42430fd716/original/Sriracha-chicken-spreadsTIle-image.jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
-                <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
-                <p>Pieces</p>
+                <h4>Chicken Shawarma Chicken Spead</h4>
+                <p>A creamy base with freshly roasted chunks along with..</p>
+                <p>Pieces 1</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP: <span>199</span></h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
                 <div class="order">
                     <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
@@ -294,12 +318,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fee95638-21fd-1706-4569-ed42430fd716/original/Sriracha-chicken-spreadsTIle-image.jpg?format=webp"alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
-                <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
+                <h4>Chunky Herby Tamato Chicken Spared</h4>
+                <p>A pleasent contrast of chicken chunk flavoure</p>
                 <p>Pieces 1</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP: <span>299</span></h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
                 <div class="order">
                     <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
@@ -313,12 +337,12 @@
                 <div><img src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/fee95638-21fd-1706-4569-ed42430fd716/original/Sriracha-chicken-spreadsTIle-image.jpg?format=webp" alt="img1">
             </div>
             <div>
-                <h4>Chicken Curry Cut-Small Pieces</h4>
-                <p>Fresh Nakhre & fresh bone-in & boneless chicken cuts</p>
+                <h4>Chunky Continental chicken Spreas</h4>
+                <p>A Nakhrebaaz chef's creation:Real chicken mega</p>
                 <p>Pieces 1</p>
                 <div class="mrp2">
-                    <div><h3>MRP:179</h3></div>
-                    <div><button>ADD TO CART</button></div>
+                    <div><h3>MRP: <span>229</span></h3></div>
+                    <div class="butt"><button>ADD TO CART</button></div>
                 </div>
                 <div class="order">
                     <img src="https://www.licious.in/img/rebranding/express_delivery.svg" alt="order1">
@@ -458,5 +482,7 @@
         </div>
         <div></div>
     </div>
+    <script src="scripts.js"></script>
+    
 </body>
 </html>
