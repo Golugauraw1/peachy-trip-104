@@ -9,6 +9,9 @@
     
 </head>
 <body>
+    
+
+    
     <div id="nav">
         <div id="logo" onClick="logo()"><img src="https://www.licious.in/img/rebranding/licious-logo.svg" alt="logo"></div>
         <div id="location"><img  src="https://cdn-icons-png.flaticon.com/128/3914/3914536.png" alt="location"> Location</div>
@@ -25,9 +28,9 @@
         <h2>Enter Your Mobile Number</h2>
         </div>
           <div class="modal-body">
-          <input class="number" type="Number" placeholder="+91">
-          <button class="otp" > Get OTP</button>
-          <input class="num"type="Number" placeholder="Enter your otp">
+          <input class="number" type="Number" placeholder="+91"><br>
+          <button class="otp" > Get OTP</button><br>
+          <input class="num"type="Number" placeholder="Enter your otp"><br>
         </div>
         <div class="modal-footer">
          <button class="submit"> Submit</button>
@@ -36,15 +39,17 @@
         </div>
       </div>
    </div>
-        <div class="cart"><img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="card">
-         Cart</div>
+        <div class="cart" onclick="cart()"><img src="https://www.licious.in/img/rebranding/cart_icon.svg" alt="card">
+            <a href="cart.html" style="text-decoration: none; color: black;">Cart</a></div>
+         
+         
     </div>
     <div id="banner">
         <div>
             <img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_63617b4964e45" alt="banner image">
         </div>
     </div>
-    <div class="body1">
+    <div class="body1" onclick="photo()">
         <div class="search_by_catogeries">
             <strong>Search by Categories</strong><br>
              Fresh meat just for you
@@ -483,6 +488,7 @@
         <div></div>
     </div>
     <script src="scripts.js"></script>
+    
     
 </body>
 </html>

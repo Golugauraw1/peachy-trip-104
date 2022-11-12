@@ -26,16 +26,16 @@ otp.onclick=function(event){
 
 let sub=document.querySelector(".submit")
 let golu=document.querySelector(".golu").innerText=""
-     let count=0;   
- sub.onclick=function(elem){
-    
+     
+let count=0;   
+ sub.onclick=function(elem){ 
     let num=document.querySelector(".num").value
     if(num==123456){
-        let golu=document.querySelector(".golu").innerText="Login sucessfully"
+        let golu=document.querySelector(".golu").innerText= "Login sucessfully"
         
     }else{
         count++;
-        let golu=document.querySelector(".golu").innerText=count+" "+"Enter valid OTP"
+        let golu=document.querySelector(".golu").innerText= count+" "+"Enter valid OTP"
         
     }
 }
@@ -50,6 +50,7 @@ function logo(){
 //let displayCard=[]
 //let gg=document.querySelector(".body1").innerHTML;
 //var na=document.querySelector("#nav").innerHTML;
+
  function search(){
     //console.log(gg)
     //console.log(na)
@@ -70,6 +71,7 @@ function logo(){
     // document.querySelector(".news").innerHTML = " ";
    // document.querySelector(".down").innerHTML = " ";
    // document.querySelector(".last").innerHTML = " ";
+  
 }
 
 function cato(){
@@ -87,6 +89,20 @@ function cato(){
         document.querySelector(".news").innerHTML = " ";
         document.querySelector("#body3").innerHTML = " ";
 }
+function photo(){
+  document.querySelector("#banner").innerHTML=" ";
+        document.querySelector("#Box-join").innerHTML=" ";
+        document.querySelector("#Box-join").style.background = "white";
+        document.querySelector("#Know_me").innerHTML = " ";
+        document.querySelector("#bank-poster").innerHTML = " ";
+        document.querySelector("#reff").innerHTML = " ";
+        document.querySelector(".chek_out_blog").innerHTML = " ";
+        document.querySelector(".banner2").innerHTML = " ";
+        document.querySelector(".news").innerHTML = " ";
+        document.querySelector(".body1").innerHTML = " ";
+
+}
+
 
 
 
